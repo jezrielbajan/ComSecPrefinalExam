@@ -32,7 +32,12 @@ namespace PreFinalExam
 
         private void Form1_Load(object sender, EventArgs e)
         {
-          
+            Process[] process = Process.GetProcesses();
+
+            foreach (Process prs in process)
+            {
+                listBox1.Items.Add(prs.ProcessName + "(" + prs.PrivateMemorySize64.ToString() + ")");
+            }
         }
 
 
