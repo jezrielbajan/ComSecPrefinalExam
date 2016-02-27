@@ -19,11 +19,6 @@ namespace PreFinalExam
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
             Process[] process = Process.GetProcesses();
 
             foreach (Process prs in process)
@@ -32,11 +27,21 @@ namespace PreFinalExam
             }
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
             Microsoft.Win32.RegistryKey key;
             key = Microsoft.Win32.Registry.CurrentUser.CreateSubKey("SOFTWARE\\Pre-FinalExam-Dashiel Dominic Palatino");
             key.Close();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
