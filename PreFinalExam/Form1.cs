@@ -21,16 +21,17 @@ namespace PreFinalExam
 
         private void Form1_Load(object sender, EventArgs e)
         {
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
             Process[] process = Process.GetProcesses();
 
             foreach (Process prs in process)
             {
                 listBox1.Items.Add(prs.ProcessName + "         (" + prs.PrivateMemorySize64.ToString() + ")");
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
         }
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
