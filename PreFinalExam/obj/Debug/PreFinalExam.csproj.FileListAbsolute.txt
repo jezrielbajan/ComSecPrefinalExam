@@ -1,0 +1,8 @@
+C:\Users\JHAYBEE\Desktop\ComSecPrefinalExam\PreFinalExam\bin\Debug\PreFinalExam.exe
+C:\Users\JHAYBEE\Desktop\ComSecPrefinalExam\PreFinalExam\bin\Debug\PreFinalExam.pdb
+C:\Users\JHAYBEE\Desktop\ComSecPrefinalExam\PreFinalExam\obj\Debug\PreFinalExam.csprojResolveAssemblyReference.cache
+C:\Users\JHAYBEE\Desktop\ComSecPrefinalExam\PreFinalExam\obj\Debug\PreFinalExam.Form1.resources
+C:\Users\JHAYBEE\Desktop\ComSecPrefinalExam\PreFinalExam\obj\Debug\PreFinalExam.Properties.Resources.resources
+C:\Users\JHAYBEE\Desktop\ComSecPrefinalExam\PreFinalExam\obj\Debug\PreFinalExam.csproj.GenerateResource.Cache
+C:\Users\JHAYBEE\Desktop\ComSecPrefinalExam\PreFinalExam\obj\Debug\PreFinalExam.exe
+C:\Users\JHAYBEE\Desktop\ComSecPrefinalExam\PreFinalExam\obj\Debug\PreFinalExam.pdb
