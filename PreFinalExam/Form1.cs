@@ -20,12 +20,7 @@ namespace PreFinalExam
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Process[] process = Process.GetProcesses();
-
-            foreach (Process prs in process)
-            {
-                listBox1.Items.Add(prs.ProcessName + "         (" + prs.PrivateMemorySize64.ToString() + ")");
-            }
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -33,6 +28,17 @@ namespace PreFinalExam
             Microsoft.Win32.RegistryKey key;
             key = Microsoft.Win32.Registry.CurrentUser.CreateSubKey("SOFTWARE\\Pre-FinalExam-Salazar");
             key.Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //aaa 
+            Process[] process = Process.GetProcesses();
+
+            foreach (Process prs in process)
+            {
+                listBox1.Items.Add(prs.ProcessName + "         (" + prs.PrivateMemorySize64.ToString() + ")");
+            }
         }
     }
 }
