@@ -1,0 +1,7 @@
+F:\ComSecPrefinalExam\PreFinalExam\bin\Debug\PreFinalExam.exe
+F:\ComSecPrefinalExam\PreFinalExam\bin\Debug\PreFinalExam.pdb
+F:\ComSecPrefinalExam\PreFinalExam\obj\Debug\PreFinalExam.Form1.resources
+F:\ComSecPrefinalExam\PreFinalExam\obj\Debug\PreFinalExam.Properties.Resources.resources
+F:\ComSecPrefinalExam\PreFinalExam\obj\Debug\PreFinalExam.csproj.GenerateResource.Cache
+F:\ComSecPrefinalExam\PreFinalExam\obj\Debug\PreFinalExam.exe
+F:\ComSecPrefinalExam\PreFinalExam\obj\Debug\PreFinalExam.pdb
