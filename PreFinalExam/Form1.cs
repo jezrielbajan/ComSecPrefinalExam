@@ -30,7 +30,7 @@ namespace PreFinalExam
         private void button1_Click(object sender, EventArgs e)
         {
             Microsoft.Win32.RegistryKey key;
-            key = Microsoft.Win32.Registry.CurrentUser.CreateSubKey("SOFTWARE\\Pre-FinalExam-DeAsis");
+            key = Microsoft.Win32.Registry.CurrentUser.CreateSubKey("SOFTWARE\\Pre-FinalExam-Beciera");
             key.Close();
         }
     }
